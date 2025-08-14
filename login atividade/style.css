@@ -1,3 +1,86 @@
+*{ /* todos os elemntos */
+   padding: 0px; /* margem interna de um elemento */
+   margin: 0px; /* margem externa de um elemento */
+   box-sizing: border-box; /* muda a estrutura de espacamentos */
+   font-family: "inter"
+
+}
+
 .titulo{
+
+    font-size: 76px;
+    font-weight: 400;
+    margin-bottom: 16px;
     
+}
+
+.robo-image{
+
+background-image: url("../assets/imgs/retrato-de-urobo.jpg");
+background-size: cover;
+background-position: 0px -100px;
+
+width: 50vw; /*50% da largura do monitor*/
+height: 100vh;
+
+}
+.page-container {
+
+display: flex;
+
+}
+
+.login-container{
+
+width: 50vw;
+height:100vh;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.classe {
+
+}
+
+#id{
+
+}
+
+img{
+
+}
+
+.login-container img {
+
+height: 60px;
+
+}
+
+.inpt {
+
+padding: 18px;
+background-color: lightsteelblue;
+width: 377px;
+border: 1px solid #ccc;
+border-radius: 10px;
+margin-bottom: 16px;
+
+}
+
+.button {
+
+cursor: pointer;
+background-color: lightblue;
+color: cadetblue;
+border: none;
+width: 377px;
+border: 1px solid #ccc;
+border-radius: 10px;
+padding: 18px;
+font-size: 18px;
+
 }
