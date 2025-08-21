@@ -17,11 +17,10 @@ display: flex;
 
     height: 100vh;
     width: 20vw;
-    background-color: aqua;
-    align-items: flex-end;
+    background-color: white;
     flex-direction: column;
     justify-content: space-between;
-
+    display: flex;
 }
 
 .central-panel {
@@ -29,15 +28,28 @@ display: flex;
 height: 100vh;
 width: 80vw;
 background-color: burlywood;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+
+
+
+
 }
 
 .top {
 
 width: 100%;
 min-height: 300px;
-background-color: blueviolet; 
+background-color: white;
 display: flex;
-justify-content: center;
+flex-direction: column;
+align-items: center;
+font-size: 76px;
+padding: 18px;
+
 
 
 }
@@ -46,7 +58,10 @@ justify-content: center;
 
 width: 100%;
 min-height: 300px;
-background-color: brown;
+background-color: white;
+flex-direction: column;
+align-items: center;
+display: flex;
 
 }
 
@@ -57,7 +72,54 @@ height: 40px;
 background-color: black;
 color: white;
 margin-top: 20px;
+border-radius: 10px;
 
+}
+
+.ponto {
+
+width: 242px;
+height: 48px;
+display: flex;
+flex-direction: column;
+font-size: 14px;
+margin-top: 20px;
+border-radius: 10px;
+padding: 10px;
+
+
+}
+
+.logo {
+
+width: 242px;
+height: 48px;
+display: flex;
+flex-direction: column;
+font-size: 14px;
+margin-top: 20px;
+border-radius: 10px;
+padding: 10px;
+align-items: center;
+
+
+}
+
+.titulo {
+
+width: 446px;
+height: 101px;
+display: flex;
+font-size: 68.95px;
+margin-top: 260px;
+margin-bottom: 16px;
+
+}
+
+.colunas {
+
+    justify-content: center;
+    align-items: center;
 
 
 }
