@@ -157,6 +157,37 @@ border-radius: 10px;
 margin-right: 40px;
 background-color: #F7F9FB
 
+}
 
+.input-container {
 
+margin-top: auto;
+margin-bottom: 40px;
+display: flex;
+align-items: center;
+padding: 16px;
+background-color: #e6e6e6;
+border-radius: 16px;
+
+}
+
+.input-container input {
+
+background-color: transparent;
+border: none;
+width: 400px;
+outline: none;
+
+}
+
+.input-container i {
+
+margin-right: 10px;
+
+}
+
+.send-button {
+
+    color: #9fa0a2;
+    margin-right: 0px !important;
 }
