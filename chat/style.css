@@ -21,19 +21,18 @@ display: flex;
     flex-direction: column;
     justify-content: space-between;
     display: flex;
+
 }
 
 .central-panel {
 
 height: 100vh;
 width: 80vw;
-background-color: burlywood;
+background-color: white;
 display: flex;
 flex-direction: column;
 align-items: center;
-
-
-
+padding: 10px;
 
 
 
@@ -73,20 +72,20 @@ background-color: black;
 color: white;
 margin-top: 20px;
 border-radius: 10px;
+padding: 10px;
 
 }
 
 .ponto {
-
 width: 242px;
 height: 48px;
 display: flex;
 flex-direction: column;
-font-size: 14px;
+font-size: 20px;
 margin-top: 20px;
 border-radius: 10px;
 padding: 10px;
-
+border: none;
 
 }
 
@@ -120,6 +119,44 @@ margin-bottom: 16px;
 
     justify-content: center;
     align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    border-radius: 16px;
+
+}
+
+.ponto {
+
+width: 242px;
+height: 48px;
+font-size: 14px;
+margin-top: 12px;
+display: flex;
+margin-bottom: 14px;
+justify-content: flex-end;
+padding: 10px;
+border: none;
+}
+
+.texto {
+
+width: 242px;
+height: 48px;
+font-size: 14px;
+margin-top: 12px;
+display: flex;
+margin-bottom: 14px;
+justify-content: flex-end;
+padding: 10px;
+border: none;
+border-radius: 10px;
+margin-right: 40px;
+background-color: #F7F9FB
+
 
 
 }
