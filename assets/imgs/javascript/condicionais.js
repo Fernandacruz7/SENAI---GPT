@@ -6,7 +6,7 @@
 
 //         alert("Idoso")
 //     }
-    
+
 //     //bloco verdadeiro
 //  alert("Voce e maior de idade!");
 
@@ -18,14 +18,14 @@
 // }
 
 // Exercicio 2
-//...
- 
+// ...
+
 // let idade = prompt("Digite um numero?");
 
 // if (idade >= 0) {
 
 // alert("o numero e positivo");
-    
+
 // } else {
 
 // alert("O numero e negativo");
@@ -33,7 +33,7 @@
 // }
 
 
-// Exercicio 3 
+// Exercicio 3
 // //...
 
 // let Nota = prompt("Digite a nota do aluno");
@@ -48,8 +48,8 @@
 
 // }
 
-// Exercicio 4 
-//...
+// Exercicio 4
+// ...
 
 // let numero = prompt("digite um numero");
 
@@ -69,8 +69,8 @@
 
 // }
 
-// Exercicio 5 
-//...
+// Exercicio 5
+// ...
 
 // let idade = prompt("digite sua idade");
 
@@ -94,37 +94,77 @@
 // }
 
 // Exercicio 6
-//...
+// ...
 
 // let numero = prompt("digite um numero");
 
 // if (numero % 2 == 0 ) {
 
-// alert("o numero e par"); 
+// alert("o numero e par");
 
 // } else {
 
 //     alert ("o numero e impar");
-    
+
 
 // }
 
 // nivel intermediario Exercicio 1
-//...
+// ...
 
-let numero1 = prompt("digite um numero");
-let numero2 = prompt("digite um numero");
-let operacao = prompt("digite a operacao (+, -, *, /,:");
+// let numero1 = Number(prompt("insira o primeiro numero:"));
 
-let resultado;
+// let numero2 = Number(prompt("insira o segundo numero:"));
+// let operacao = prompt("digite a operacao (+, -, *, /,:");
 
-if (operacao === "+") {
-resultado n1 + n2 ;
- 
-} else if (operacao === "+") {
-    resultado n1 + n2 ;
+// if (operacao == "+") {
+
+//     let resultado = numero1 + numero2;
+//     alert(resultado);
+
+// } else {
+//     if (operacao == "-") {
+
+//         let resultado = numero1 - numero2;
+//         alert(resultado);
+//     } else {
+
+//         if (operacao == "*") {
+
+//             let resultado = numero1 * numero2;
+//             alert(resultado);
+
+//         } else {
+
+//             if (operacao == "/") {
+
+//                 let resultado = numero1 / numero2
+//                 alert(resultado);
 
 
-}
+//             }
+
+//         }
+
+//     }
+
+// }
+
+// nivel intermediario Exercicio 2
+// ...
+
+// let usuario = prompt("digite o nome do usuario:");
+// let senha = prompt("digite a senha:");
+
+//     if (usuario === "adm" && senha === "1234") {
+
+//     alert("login bem sucedido");
+
+//     } else {
+
+//     alert("acesso negado");
+
+// }
+
 
 
