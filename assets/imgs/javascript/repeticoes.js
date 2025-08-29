@@ -15,6 +15,7 @@
 
 //  }
 
+// Exercicio 1
 //  debugger
 //  console.log("DO WHILE SIMPLES");
 
@@ -31,6 +32,7 @@
 
 // }
 
+// Exercicio 2 
 // debugger
 
 // let numero = prompt("digite um numero");
@@ -41,7 +43,7 @@
 // console.log(resultado)
 // }
 
- 
+
 // Exercicio 3
 // debugger
 
@@ -58,3 +60,21 @@
 
 
 // }
+
+// // Exercicio intermediaro 1
+// debugger
+
+// for (let contadora = 0; contadora <= 50; contadora += 2) {
+
+//     console.log(contadora);
+// }
+
+// Exercicio intermediario 3 
+debugger
+
+let contadoraWhile = 50;
+while (contadoraWhile >= 0) {
+
+    console.log(contadoraWhile);
+    contadoraWhile--;
+}
