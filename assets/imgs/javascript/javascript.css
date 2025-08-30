@@ -1,0 +1,28 @@
+* {}
+
+button {
+
+    margin-bottom: 10px;
+    background-color: hotpink;
+    color: black;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 10px;
+    font-size: 0.8em;
+    cursor: pointer;
+    transition: all ease 2s;
+
+}
+
+button:hover {
+
+    background-color: blueviolet;
+    transform: scale(1.1) rotateZ(2deg);
+
+}
+
+button:active {
+
+    background-color: black;
+
+}
